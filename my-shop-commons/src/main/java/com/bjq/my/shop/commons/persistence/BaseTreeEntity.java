@@ -1,0 +1,13 @@
+package com.bjq.my.shop.commons.persistence;
+
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
+import java.io.Serializable;
+
+@Data
+public abstract class BaseTreeEntity<T extends BaseEntity> extends BaseEntity implements Serializable {
+    private T parent;
+    private Boolean isParent;
+
+}
