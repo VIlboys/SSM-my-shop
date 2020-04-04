@@ -7,8 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c0ebd5a-08e6-44b3-8877-9be12103e9ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-web-api/src/main/java/com/bjq/my/shop/web/api/web/dto/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-api/src/main/java/com/bjq/my/shop/web/api/web/dto/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-web-api/src/main/java/com/bjq/my/shop/web/api/web/dto/TbUserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-api/src/main/java/com/bjq/my/shop/web/api/web/dto/TbUserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-web-api/target/classes/com/bjq/my/shop/web/api/web/dto/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-api/target/classes/com/bjq/my/shop/web/api/web/dto/Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-web-api/target/classes/com/bjq/my/shop/web/api/web/dto/TbUserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-api/target/classes/com/bjq/my/shop/web/api/web/dto/TbUserDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-web-api/target/my-shop-web-api-1.0.0-SNAPSHOT/WEB-INF/classes/com/bjq/my/shop/web/api/web/dto/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-api/target/my-shop-web-api-1.0.0-SNAPSHOT/WEB-INF/classes/com/bjq/my/shop/web/api/web/dto/Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-web-api/target/my-shop-web-api-1.0.0-SNAPSHOT/WEB-INF/classes/com/bjq/my/shop/web/api/web/dto/TbUserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-api/target/my-shop-web-api-1.0.0-SNAPSHOT/WEB-INF/classes/com/bjq/my/shop/web/api/web/dto/TbUserDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-web-ui/src/main/java/com/bjq/my/shop/web/ui/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-ui/src/main/java/com/bjq/my/shop/web/ui/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-web-ui/target/classes/com/bjq/my/shop/web/ui/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-ui/target/classes/com/bjq/my/shop/web/ui/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-web-ui/target/my-shop-web-ui-1.0.0-SNAPSHOT/WEB-INF/classes/com/bjq/my/shop/web/ui/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-ui/target/my-shop-web-ui-1.0.0-SNAPSHOT/WEB-INF/classes/com/bjq/my/shop/web/ui/controller/LoginController.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -548,7 +556,7 @@
       <workItem from="1585837324838" duration="4791000" />
       <workItem from="1585883675868" duration="21627000" />
       <workItem from="1585923312294" duration="3721000" />
-      <workItem from="1585980603664" duration="71000" />
+      <workItem from="1585980603664" duration="2870000" />
     </task>
     <servers />
   </component>
@@ -575,14 +583,14 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/my-shop-web-ui/src/main/java/com/bjq/my/shop/web/ui/controller/LoginController.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/my-shop-web-ui/src/main/java/com/bjq/my/shop/web/ui/api/UsersApi.java</url>
           <line>27</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/my-shop-web-ui/src/main/java/com/bjq/my/shop/web/ui/controller/LoginController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

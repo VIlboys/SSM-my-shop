@@ -37,13 +37,14 @@ public class LoginController {
     public String login(TbUser tbUser, Model model, HttpServletRequest request) throws Exception {
 
 
+        TbUser user = UsersApi.login(tbUser);
         //验证码验证
         if(!checkVerification(tbUser,request)){
             model.addAttribute("baseResult",BaseResult.fail("验证码输入错误，请重新输入"));
             return "login";
         }
 
-        TbUser user = UsersApi.login(tbUser);
+
         //登陆失败
         if(user == null){
             model.addAttribute("baseResult",BaseResult.fail("用户名或者密码错误请重新输入!"));
@@ -51,7 +52,7 @@ public class LoginController {
         }
         //登陆成功
         else {
-            emailSendUtils.send("用户登录", String.format("用户 【%s】 登录 MyShop", user.getUsername()),"ad121357@163.com");
+            emailSendUtils.send("用户登录", String.format("用户 【%s】 登录 MyShop", tbUser.getUsername()),"ad121357@163.com");
             //将会员信息放入session
             request.getSession().setAttribute(SystemConstants.SESSION_USER_KEY,user);
             //重定向回首页

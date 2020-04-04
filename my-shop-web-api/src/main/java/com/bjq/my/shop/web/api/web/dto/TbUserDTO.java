@@ -13,9 +13,10 @@ public class TbUserDTO implements Serializable {
 
     private Long id;
     private String username;
-    @JsonIgnore
+    //@JsonIgnore
     private String password;
     private String phone;
     private String email;
+    private String verification;
 
 }
